@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+}
+
+html body{
+    display:grid;
+    justify-content: center;
+   /*background-color: black;*/
+}
+
+.sec-div{
+    border:solid 1px;
+    width:300px;
+    height:270px;
+    margin-top: 50%;
+    background-color: #040404;
+    border-radius: 15px;
+    display: block;
+}
+
+.pro-div{
+    margin-left: 30px;
+}
+
+.pro-div i{
+ margin-top: 10px;
+ background-color: rgb(33, 32, 32);
+ color: orange;
+ padding:5px;
+ border-radius: 50%;
+}
+
+.pro-div h2{
+    color: white;
+}
+
+.pro-div blockquote{
+    color: mintcream;
+    font-size:small;
+    margin-left: -2px;
+}
+
+.d-flex{
+    margin-top: -8px;
+}
+
+.d-flex p:first-of-type{
+    margin-left: 1px;
+}
+
+.d-flex p{
+    margin-left: 25px;
+    background-color: gray;
+    padding: 8px;
+    border-radius: 500%;
+    height:30px;
+}
+
+.d-flex p:hover{
+    background-color: orange;
+    color: white;
+}
+
+.pro-div button{
+    width:230px;
+    padding:5px;
+    border-radius: 40px;
+    color: antiquewhite;
+    background-color: orange;
+    border: none;
+}
+
+.pro-div button:hover{
+    background-color: white;
+    color: orange;
+}
+
+/* thanks section */
+
+.main-thanks{
+    display:none;
+    border:solid 1px;
+    width:300px;
+    height:320px;
+    margin-top: 50%;
+    background-color: rgb(19, 16, 16);
+    border-radius: 15px;
+}
+
+.main-thanks .thanks svg{
+    margin-top: 15px;
+}
+
+.main-thanks .thanks p{
+    background-color: rgb(11, 11, 11);
+    border-radius: 30px;
+    width:200px;
+    padding: 10px;
+    margin-left: 17%;
+    font-size: small;
+    color: orange;
+}
+
+.main-thanks .thanks{
+    text-align: center;
+    color: white;
+}
+
+.main-thanks .thanks blockquote{
+    color: silver;
+    font-size: small;
+}
+
+/*media query*/
+
+@media screen and (max-width:480px) {
+    .sec-div{
+        border:solid 1px;
+        width:370px;
+        height:390px;
+        margin-top: 30%;
+        background-color: #040404;
+        border-radius: 15px;
+        display: block;
+    }
+
+    .pro-div i{
+        margin-top: 10px;
+        background-color: rgb(33, 32, 32);
+        color: orange;
+        padding:10px;
+        font-size: xx-large;
+        border-radius: 50%;
+       }
+
+    .pro-div{
+        margin-left: 30px;
+    }
+
+    .pro-div h2{
+        color: white;
+        font-size: xx-large;
+    }
+
+    .pro-div blockquote{
+        color: mintcream;
+        font-size:large;
+        margin-left: -2px;
+    }
+
+    .d-flex p{
+        font-size: large;
+        margin-left: 25px;
+        background-color: gray;
+        padding: 15px;
+        border-radius: 500%;
+        height:50px;
+    }
+
+    .pro-div button{
+        width:300px;
+        padding:10px;
+        border-radius: 40px;
+        color: antiquewhite;
+        background-color: orange;
+        border: none;
+    }
+
+    /* thanks section*/
+
+    .main-thanks .thanks blockquote{
+        color: silver;
+        font-size:medium ;
+    }
+
+    .main-thanks .thanks p{
+        background-color: rgb(11, 11, 11);
+        border-radius: 30px;
+        width:200px;
+        padding: 10px;
+        margin-left: 17%;
+        font-size:medium;
+        color: orange;
+    }
+    
+}
